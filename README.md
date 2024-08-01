@@ -2,16 +2,17 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Descargar Contacto</title>
+    <title>DOJO SPORT - Descargar Contacto</title>
     <style>
         body {
-            background-color: #f0f0f0; /* Color de fondo */
+            background-color: #000000; /* Fondo negro */
             font-family: Arial, sans-serif;
             text-align: center;
+            color: white;
             padding: 20px;
         }
         header {
-            background-color: #4CAF50; /* Color del encabezado */
+            background-color: #c59a4a; /* Color dorado */
             padding: 20px;
             color: white;
         }
@@ -20,7 +21,7 @@
             height: auto;
         }
         button {
-            background-color: #4CAF50;
+            background-color: #c59a4a;
             color: white;
             padding: 15px 32px;
             text-align: center;
@@ -33,17 +34,38 @@
             border-radius: 5px;
         }
         button:hover {
-            background-color: #45a049;
+            background-color: #b5893e;
+        }
+        .contact-info {
+            margin: 20px 0;
+            text-align: left;
+            display: inline-block;
+        }
+        .contact-info p {
+            margin: 10px 0;
+        }
+        .contact-info img {
+            vertical-align: middle;
+            margin-right: 10px;
         }
     </style>
 </head>
 <body>
     <header>
-        <img src="ruta/al/logo.png" alt="Logo"> <!-- Reemplaza con la ruta a tu logo -->
-        <h1>Descargar Contacto</h1>
+        <img src="logo dojo sport.png" alt="Logo Dojo Sport"> <!-- Ruta al logo -->
+        <h1>DOJO SPORT</h1>
     </header>
-    <p>Haz clic en el botón de abajo para descargar el contacto.</p>
-    <button id="downloadBtn">Descargar Contacto</button>
+    <div class="contact-info">
+        <p><img src="iconos/nombre.png" alt="Nombre" width="20"> Juan Carlos Montes Juarez</p>
+        <p><img src="iconos/organizacion.png" alt="Organización" width="20"> Dojo Sport</p>
+        <p><img src="iconos/titulo.png" alt="Título" width="20"> Sensei c.n. 8º dan</p>
+        <p><img src="iconos/telefono.png" alt="Teléfono" width="20"> 55-9198-6630</p>
+        <p><img src="iconos/telefono.png" alt="Teléfono" width="20"> 55-4623-2920</p>
+        <p><img src="iconos/email.png" alt="Email" width="20"> j.carlosmontesjz@gmail.com</p>
+    </div>
+    <button id="downloadBtn">
+        <img src="iconos/descargar.png" alt="Descargar" width="20"> Descargar Contacto
+    </button>
 
     <script>
         document.getElementById('downloadBtn').addEventListener('click', function() {
