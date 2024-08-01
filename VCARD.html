@@ -3,11 +3,20 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Contacto de Juan Carlos Montes Juarez</title>
+    <title>Descargar Contacto</title>
 </head>
 <body>
-    <h1>Contacto de Juan Carlos Montes Juarez</h1>
-    <p>Haz clic en el enlace de abajo para descargar el contacto en formato vCard:</p>
-    <a href="contacto.vcf" download="JuanCarlosMontesJuarez.vcf">Descargar vCard</a>
+    <h1>Descargar Contacto</h1>
+    <p>Haz clic en el botón de abajo para descargar el contacto.</p>
+    <button id="downloadBtn">Descargar Contacto</button>
+
+    <script>
+        document.getElementById('downloadBtn').addEventListener('click', function() {
+            var link = document.createElement('a');
+            link.href = 'ruta/al/archivo.vcf'; // Reemplaza con la ruta correcta a tu archivo vCard
+            link.download = 'nombre_del_contacto.vcf'; // Nombre del archivo que se descargará
+            link.click();
+        });
+    </script>
 </body>
 </html>
