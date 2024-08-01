@@ -1,10 +1,13 @@
-BEGIN:VCARD
-VERSION:3.0
-N:Montes Juarez;Juan Carlos;;;
-FN:Juan Carlos Montes Juarez
-ORG:Dojo Sport
-TITLE:Sensei c.n. 8º dan
-TEL;TYPE=WORK,VOICE:55-9198-6630
-TEL;TYPE=WORK,VOICE:55-4623-2920
-EMAIL:j.carlosmontesjz@gmail.com
-END:VCARD
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contacto de Juan Carlos Montes Juarez</title>
+</head>
+<body>
+    <h1>Contacto de Juan Carlos Montes Juarez</h1>
+    <p>Haz clic en el enlace de abajo para descargar el contacto en formato vCard:</p>
+    <a href="contacto.vcf" download="JuanCarlosMontesJuarez.vcf">Descargar vCard</a>
+</body>
+</html>
